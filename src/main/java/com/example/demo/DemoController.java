@@ -8,7 +8,7 @@ public class DemoController {
 
   @GetMapping("/")
   public String getDemo() {
-    return "Hello World! nohup";
+    return "Hello World! nohup2";
   }
 
 }
