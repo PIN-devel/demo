@@ -13,4 +13,9 @@ public class DemoController {
   public String getDemo() {
     return "Hello World! port:" + serverPort;
   }
+
+  @GetMapping("/health")
+  public String checkHealth() {
+    return "OK";
+  }
 }
